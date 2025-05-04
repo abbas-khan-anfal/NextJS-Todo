@@ -24,7 +24,7 @@ function page() {
     <Navbar/>
     <div className={`container ${Styles.profilePage}`}>
       <div className="row justify-content-center">
-        <div className="col-10">
+        <div className="col-lg-10 col-md-11 col-sm-12">
 
           <div className="mb-3">
             <button onClick={() => router.back()} className='circleBtn'>

@@ -84,8 +84,8 @@ function page() {
     <>
     <Navbar />
     <div className={`container ${Styles.homePage}`}>
-        <div className="row">
-            <div className="col-8">
+        <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-12 col-sm-12">
                 <Title title="Add Task" />
                 <div className="mb-3 d-flex justify-content-end">
                   <Link href="/add_task" className='unBtn mdBtn'>Add New Task</Link>

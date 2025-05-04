@@ -46,7 +46,7 @@ function page() {
     <Navbar />
     <div className={`container ${Styles.taskPage}`}>
       <div className="row">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-6 col-sm-12">
 
           <div className="mb-3">
             <button onClick={() => router.back()} className='circleBtn'>

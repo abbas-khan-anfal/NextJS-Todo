@@ -49,7 +49,7 @@ function page() {
   return (
     <div className="container authPage">
       <div className="row justify-content-center">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-6 col-sm-12">
           <form onSubmit={submitHandler}>
 
             <Title title="Signup" />
