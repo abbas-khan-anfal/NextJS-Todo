@@ -1,0 +1,13 @@
+.successBtn
+{
+    padding: 5px 10px;
+}
+.dangerBtn
+{
+    padding: 5px 10px;
+    background-color: rgb(164, 55, 55);
+}
+.homePage
+{
+    padding-top: 30px;
+}
